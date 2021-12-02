@@ -3,10 +3,10 @@ import { StyleSheet } from 'react-native'
 const styles = StyleSheet.create({
     resultImc: {
         flex: 1,
-        marginTop:20,
-        paddingTop:15,
-        alignItems:"center",
-        width:"100%",
+        paddingTop: 60,
+        borderRadius: 50,
+        alignItems: "center",
+        width: "100%",
     },
     numberImc:{
         fontSize: 48,
@@ -24,10 +24,13 @@ const styles = StyleSheet.create({
         marginBottom:10,
     },
     shared:{
-        backgroundColor:"#1877f2",
-        borderRadius:50,
-        paddingBottom:5,
+        width: "auto",
+        height: "auto",
+        backgroundColor: "#1877f2",
+        borderRadius: 50,
         paddingTop: 5,
+        paddingBottom: 5,
+        marginVertical: 10,
     },
     sharedText:{
         color:"#ffffff",
